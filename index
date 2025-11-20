@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Art</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="box b1">
+        <h1>Transitions/Transformations</h1>
+        <div class="facebox">
+            <!-- hat -->
+            <div class="emoji1 A">
+                <div class="face1">
+                    <div class="eyes1">
+                    <div class="eye eye1"></div>
+                    <div class="eye eye2"></div>
+                    </div>
+                    <div class="mouth">
+                        <div class="left"></div>
+                        <div class="right"></div>
+                    </div>
+                </div>
+                <div class="completehat">
+                    <div class="hat">
+                        <div class="color2"></div>
+                        <div class="color1"></div>
+                        <div class="color3"></div>
+                    </div>
+                    <div class="brim"></div>
+                    <div class="propeller1"></div>
+                    <div class="propeller2"></div>
+                </div>
+            </div>
+            <!-- toothy -->
+            <div class="emoji2 B">
+                <div class="face2">
+                    <div class="eye eye3"></div>
+                    <div class="eye eye4"></div>
+                    <div class="mouth2">
+                        <div class="teeth"></div>
+                        <div class="tongue"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- blue -->
+            <div class="emoji3 C">
+                <div class="face3">
+                    <div class="eye eye5"></div>
+                    <div class="eye eye6"></div>
+                    <div class="mouth3"></div>
+                </div>
+                <div class="hand handL"></div>
+                <div class="hand handR"></div>
+            </div>
+        </div>
+       
+    </div>
+    <div class="box b2">
+        <h1>Animations</h1>
+        <div class="facebox">
+            <!-- hat -->
+            <div class="emoji1 D">
+                <div class="face1">
+                    <div class="eye eye1"></div>
+                    <div class="eye eye2"></div>
+                    <div class="mouth">
+                        <div class="left"></div>
+                        <div class="right"></div>
+                    </div>
+                </div>
+                <div class="completehat">
+                    <div class="hat">
+                        <div class="color2"></div>
+                        <div class="color1"></div>
+                        <div class="color3"></div>
+                    </div>
+                    <div class="brim"></div>
+                    <div class="propeller1 D1"></div>
+                    <div class="propeller2 D2"></div>
+                </div>
+            </div>
+            <!-- toothy -->
+            <div class="emoji2 E">
+                <div class="face2">
+                    <div class="eye eye3 E1"></div>
+                    <div class="eye eye4 E2"></div>
+                    <div class="mouth2">
+                        <div class="teeth"></div>
+                        <div class="tongue"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- blue -->
+            <div class="emoji3 F">
+                <div class="face3">
+                    <div class="eye eye5"></div>
+                    <div class="eye eye6"></div>
+                    <div class="mouth3"></div>
+                </div>
+                <div class="hand handL"></div>
+                <div class="hand handR"></div>
+            </div>
+        </div>
+       
+    </div>
+    <div class="box b3">
+        <h1>CSS Art - Emoji</h1>
+        <div class="facebox">
+            <!-- hat -->
+            <div class="emoji1">
+                <div class="face1">
+                    <div class="eye eye1"></div>
+                    <div class="eye eye2"></div>
+                    <div class="mouth">
+                        <div class="left"></div>
+                        <div class="right"></div>
+                    </div>
+                </div>
+                <div class="completehat">
+                    <div class="hat">
+                        <div class="color2"></div>
+                        <div class="color1"></div>
+                        <div class="color3"></div>
+                    </div>
+                    <div class="brim"></div>
+                    <div class="propeller1"></div>
+                    <div class="propeller2"></div>
+                </div>
+            </div>
+            <!-- toothy -->
+            <div class="emoji2">
+                <div class="face2">
+                    <div class="eye eye3"></div>
+                    <div class="eye eye4"></div>
+                    <div class="mouth2">
+                        <div class="teeth"></div>
+                        <div class="tongue"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- blue -->
+            <div class="emoji3">
+                <div class="face3">
+                    <div class="eye eye5"></div>
+                    <div class="eye eye6"></div>
+                    <div class="mouth3"></div>
+                </div>
+                <div class="hand handL"></div>
+                <div class="hand handR"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+<!--  
+- emoji hovers over box rather than goes in the box
+- emoji flows off page 
+- emoji out of order
+-->

@@ -1,0 +1,538 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    background-color:rgb(230, 211, 248);
+    height:100%;
+}
+
+.box{
+    flex: 1;
+    background-color:#ffffff;
+    border:2px solid rgb(148, 55, 167);
+    margin:10px;
+    border-radius:20px;
+    /* display:flex; */
+}
+.b1{
+    min-height:500px;
+    
+}
+.b2{
+    min-height:500px;
+
+}
+.b3{
+    min-height: 500px;
+    /* display: flex;
+    flex-flow: row wrap; */
+    /* gap: 150px; */
+}
+
+.facebox{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/** first emoji **/
+.emoji1{
+    display:flex;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+.face1{
+    position:relative;
+    
+    display:flex;
+    flex-direction:column;
+    height:200px;
+    width:200px;
+    overflow:hidden;
+    background-image: radial-gradient(#feca3e 58%, #ff8000 80%);
+    border-radius:50%;
+    box-shadow:30px 30px 35px rgba(0,0,0,0.25);
+    transition:top 5s;
+}
+.eye{
+    top:20%;
+    
+    display:flex;
+    flex-direction:row;
+    height:60px;
+    width:50px;
+    background-color:black;
+    border: black 5px;
+    border-radius:40px;
+    position:absolute;
+}
+.eye1{
+    left:10%;
+    transition: top 5s;
+}
+.eye2{
+    right: 10%;
+    transition: top 5s;
+}
+.mouth{
+    outline:5px solid none;
+    position:absolute;
+    width:100px;
+    height:70px;
+    top:60%;
+    left:26%;
+    overflow:hidden;
+    transition: top 5s;
+}
+.left{
+    top:-70%;
+    left:45%;
+    display:flex;
+    flex-direction:row;
+    height:70px;
+    width:70px;
+    background-color:none;
+    border: black 5px;
+    border-style:solid;
+    border-radius:40px;
+    position:absolute;
+}
+.right{
+    top:-70%;
+    right:45%;
+    display:flex;
+    flex-direction:row;
+    height:70px;
+    width:70px;
+    background-color:none;
+    border: black 5px;
+    border-style:solid;
+    border-radius:40px;
+    position:absolute;
+}
+.completehat{
+    position:absolute;
+    top:-10%;
+    left:19.5%;
+
+}
+.hat{
+    background-color:none;
+    height:90px;
+    width: 150px;
+    position:absolute;
+    top:28%;
+    left:19.5%;
+    border-radius:100px;
+    overflow:hidden;
+}
+.brim{
+    background-color:rgb(0, 0, 255);
+    height:43px;
+    width: 175px;
+    position:absolute;
+    left:-13px;
+    top:50px;
+    border-radius:100px;
+}
+.color1{
+    background-color:rgb(204, 0, 0);
+    height:90px;
+    width: 70px;
+    position:absolute;
+    left:-5%;
+    border-radius:10px;
+}
+.color2{
+    background-color:rgb(5, 141, 5);
+    height:100px;
+    width: 150px;
+    position:absolute;
+    left:2%;
+    border-radius:1px;   
+}
+.color3{
+    background-color:rgb(223, 220, 38);
+    height:100px;
+    width: 70px;
+    position:absolute;
+    left:60%;
+    border-radius:10px;
+}
+.propeller1{
+    background-color:rgb(0, 0, 0);
+    height:18px;
+    width:50px;
+    position:absolute;
+    left:75px;
+    top:-10px;
+    border-radius:100px;
+    transition: width 5s;
+}
+.propeller2{
+    background-color:rgb(0, 0, 0);
+    height:18px;
+    width:50px;
+    position:absolute;
+    right:-76px;
+    top:-10px;
+    border-radius:100px;
+    transition: width 5s;
+}
+.eyes1{
+    transition: top 5s;
+}
+.A:hover .propeller1{
+    width:200px;
+}
+.A:hover .propeller2{
+    width:200px;
+    right:-75px;
+}
+.A:hover .eye1{
+    top:-2%;
+}
+.A:hover .eye2{
+    top:-2%;
+}
+.A:hover .mouth{
+    top:35%;
+}
+.D{
+    animation-name:fly;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+.D1{
+    animation-name:propellerD1;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+}
+.D2{
+    animation-name:propellerD2;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+}
+@keyframes fly {
+  0% {right:0px; right:0px; bottom:0px;}
+  50%{ right:500px; bottom:800px;}
+  50.1%{ right:0px; bottom:900px;}
+  100% {right:0px; right:0px; bottom:0px;}
+}
+@keyframes propellerD1{
+0%{width:100px;}
+50%{width:0px;}
+100%{width:100px}
+}
+@keyframes propellerD2{
+0%{width:100px;}
+50%{width:0px;}
+100%{width:100px}
+}
+
+/** end of emoji 1 **/
+
+
+
+/** emoji 2 **/
+.eye3{
+    left:10%;
+    background-image:radial-gradient(black, black, white, white);
+    transition: width 3s, height 3s, top 3s;
+}
+.eye4{
+    right: 10%;
+    background-image:radial-gradient(black, black, white, white);
+    transition: width 3s, height 3s, top 3s;
+}
+.mouth2{
+    height: 60px;
+    width: 90px;
+    background-color: rgb(73, 31, 31);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 25px;
+    overflow: hidden;
+    border-radius: 70px 70px 180px 180px;
+    transition: width 3s, height 3s;
+}
+.teeth{
+    position: absolute;
+    height:30px;
+    width:50px;
+    background-color:white;
+    margin:auto;
+    left:0;
+    right:0;
+    border-radius:0px 0px 10px 10px;
+}
+.tongue{
+    position:absolute;
+    height:30px;
+    width:70px;
+    background-color:rgb(146, 21, 21);
+    margin:auto;
+    left:0;
+    right:0;
+    top:70%;
+    border-radius:50px 50px 0px 0px;
+}
+
+.facebox{
+    display: flex;
+} 
+
+.emoji2{
+    display:flex;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+.face2{
+    position:relative;
+    
+    display:flex;
+    height:200px;
+    width:200px;
+    overflow:hidden;
+    background-image: radial-gradient(#feca3e 58%, #ff8000 80%);
+    border-radius:50%;
+    box-shadow:30px 30px 35px rgba(0,0,0,0.25)
+}
+
+.B:hover .mouth2{
+    height:80px;
+    width:110px;
+}
+.B:hover .eye3{
+    width:70px;
+    height:70px;
+    top:13%;
+}
+.B:hover .eye4{
+    width:70px;
+    height:70px;
+    top:13%;
+}
+.E{
+    animation-name:spinny;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.E1{    
+    animation-name:rainbow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.E2{    
+    animation-name:rainbow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes spinny{
+    0%{transform: rotate(0deg)}
+    100%{transform:rotate(360deg)}
+}
+@keyframes rainbow{
+    0%{}
+    7%{background-image:none;background-color:red;}
+    20%{background-image:none;background-color:orange;}
+    40%{background-image:none;background-color:yellow;}
+    60%{background-image:none;background-color:green;}
+    80%{background-image:none;background-color:blue;}
+    93%{background-image:none;background-color:purple;}
+    100%{}
+}
+ /** end of emoji 2**/
+
+
+
+/** emoji 3 **/
+.emoji3{
+    display:flex;
+    position:relative;
+    width:250px;
+    height:250px;
+}
+.face3{
+    position:relative;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    height:200px;
+    width:200px;
+    overflow:hidden;
+    background-image: linear-gradient(rgb(22, 0, 224), white);
+    border-color:black;
+    border-radius:50%;
+    box-shadow:30px 30px 35px rgba(0,0,0,0.25);
+    transition: height 3s, background-image 3s;
+}
+.face3::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-image:linear-gradient(rgb(0, 0, 0),rgb(255, 255, 255)); 
+    transition: top 3s, transform 3s, left 3s, border 3s, opacity 3s;
+    opacity: 0;
+}
+.C:hover .face3::before{
+    opacity: 1;
+}
+.eye5{
+    left: 10%;
+    background-image:radial-gradient(white, white, white, black, black);
+    transition:height 3s, width 3s;
+}
+.eye6{
+    right:10%;
+    background-image:radial-gradient(white, white, white, black, black);
+    transition:height 3s, width 3s;
+}
+.mouth3{
+    background-image:radial-gradient(rgb(75, 75, 77), black);
+    width:50px;
+    height:80px;
+    margin:auto;
+    left:0;
+    right:0;
+    top:50%;
+    border-radius:50px;
+    position:absolute;
+    transition: height 3s;
+}
+.hand{
+    display:flex;
+    flex-direction:row;
+    height:90px;
+    width:60px;
+    background-image:linear-gradient(rgb(30, 32, 155), rgb(177, 177, 177));
+    position:absolute;
+}
+
+.handL{
+    border-radius:25px 200px 100px 100px;
+    left:10%;
+    top:60%;
+    transition: top 3s, transform 3s, left 3s, background-image, background-color 3s;
+    overflow: hidden;
+}
+
+.handL::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-image:linear-gradient(rgb(0, 0, 0),rgb(255, 255, 255)); 
+    transition: top 3s, transform 3s, left 3s, opacity 3s;
+    opacity: 0;
+}
+.C:hover .handL::before{
+    opacity: 1;
+}
+
+.handR{
+    border-radius:200px 25px 100px 100px;
+    right:10%;
+    top:60%;
+    transition: top 3s, transform 3s, right 3s, opacity 3s;
+    overflow:hidden;
+}
+
+.handR::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-image:linear-gradient(rgb(0, 0, 0),rgb(255, 255, 255)); 
+    transition: top 3s, transform 3s, left 3s, opacity 3s;
+    opacity: 0;
+}
+.C:hover .handR::before{
+    opacity: 1;
+}
+.C:hover .handL{
+    top:50%;
+    transform: rotate(8deg);
+    left:5px;
+} 
+.C:hover .handR{
+    top:50%;
+    transform: rotate(-8deg);
+    right:5px;
+}
+.C:hover .mouth3{
+    height:150px;
+}
+.C:hover .eye5{
+    height:70px;
+    width:60px;
+}
+.C:hover .eye6{
+    height:70px;
+    width:60px;
+}
+.C:hover .face3{
+    height:250px;
+}
+
+.face3{
+    animation-name:scared;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+@keyframes scared{
+  0% {right:0px; right:0px; bottom:0px;}
+  100%{ right:0px; bottom:100px; height:50px; width:50px;}
+}
+
+
+ /** end of emoji 3 **/
+ 
+
+
+ 
+/*
+ .moving-{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 70px solid orange;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+/* Controls the animation positions */
+/*
+@keyframes move {
+    from {left: 2%;}
+    to {left: 20%;}
+}
+*/

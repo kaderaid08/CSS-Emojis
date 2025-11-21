@@ -498,14 +498,70 @@
     height:250px;
 }
 
-.face3{
+.F{
     animation-name:scared;
     animation-duration:3s;
     animation-iteration-count: infinite;
 }
+.F1{
+    animation-name:spookedF;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+.F2{
+    animation-name:Sheye1;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+.F3{
+    animation-name:Sheye2;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+.F4{
+    animation-name:shockmouth;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+.F5{
+    animation-name:shockhandL;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+
 @keyframes scared{
-  0% {right:0px; right:0px; bottom:0px;}
-  100%{ right:0px; bottom:100px; height:50px; width:50px;}
+    0% {right:0px; bottom:0px;}
+    100%{ right:0px; bottom:100px;}
+}
+@keyframes spookedF{
+    0% {right:0px; bottom:0px;}
+    100%{ right:0px; bottom:100px; height:100px; width:100px;}
+}
+@keyframes shockmouth{
+    0% {right:0px; bottom:0px;}
+    25%{right:-60px;}
+    50%{right:0px;}
+    75%{right:60px;}
+    100%{ right:0px; bottom:0px; height:40px; width:25px;}
+}
+@keyframes Sheye1{
+    0% {left:0px; bottom:0px;}
+    25%{left:30px;}
+    50%{left:0px;}
+    75%{left:-30px;}
+    100%{ left:0px; bottom:0px; height:40px; width:40px;}
+}
+@keyframes Sheye2{
+    0% {right:0px; bottom:0px;}
+    25%{right:-30px;}
+    50%{right:0px;}
+    75%{right:30px;}
+    100%{ right:0px; bottom:0px; height:40px; width:40px;}
+}
+/*
+@keyframes shockhandL{
+    0%{top:0%;}
+    100%{top:800px;}
 }
 
 

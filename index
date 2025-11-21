@@ -95,16 +95,17 @@
             </div>
             <!-- blue -->
             <div class="emoji3 F">
-                <div class="face3">
-                    <div class="eye eye5"></div>
-                    <div class="eye eye6"></div>
-                    <div class="mouth3"></div>
+                <div class="face3 F1">
+                    <div class="eye eye5 F2"></div>
+                    <div class="eye eye6 F3"></div>
+                    <div class="mouth3 F4"></div>
                 </div>
+                <div class="F5">
                 <div class="hand handL"></div>
                 <div class="hand handR"></div>
             </div>
         </div>
-       
+       </div>
     </div>
     <div class="box b3">
         <h1>CSS Art - Emoji</h1>
@@ -148,7 +149,7 @@
                     <div class="eye eye6"></div>
                     <div class="mouth3"></div>
                 </div>
-                <div class="hand handL"></div>
+                <div class="hand handL f5"></div>
                 <div class="hand handR"></div>
             </div>
         </div>

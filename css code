@@ -524,7 +524,24 @@
     animation-iteration-count: infinite;
 }
 .F5{
+    width:250px;
+    right:0;
+    left:0;
+    margin:auto;
+    height:90px;
+    bottom:60px;
+    position:absolute;
+    animation-name:shockhand;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+.F6{
     animation-name:shockhandL;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+.F7{
+    animation-name:shockhandR;
     animation-duration:3s;
     animation-iteration-count: infinite;
 }
@@ -558,10 +575,20 @@
     75%{right:30px;}
     100%{ right:0px; bottom:0px; height:40px; width:40px;}
 }
-/*
+
+@keyframes shockhand{
+    0% {}
+    100%{ right:0px; bottom:180px; width:150px;height:100px;}
+}
+
 @keyframes shockhandL{
-    0%{top:0%;}
-    100%{top:800px;}
+    0% {}
+    100%{ left:5px; bottom:180px; width:30px;height:50px;}
+}
+
+@keyframes shockhandR{
+    0% {}
+    100%{ right:5px; bottom:180px; width:30px;height:50px;}
 }
 
 

@@ -101,8 +101,9 @@
                     <div class="mouth3 F4"></div>
                 </div>
                 <div class="F5">
-                <div class="hand handL"></div>
-                <div class="hand handR"></div>
+                <div class="hand handL F6"></div>
+                <div class="hand handR F7"></div>
+                </div>
             </div>
         </div>
        </div>
@@ -149,7 +150,7 @@
                     <div class="eye eye6"></div>
                     <div class="mouth3"></div>
                 </div>
-                <div class="hand handL f5"></div>
+                <div class="hand handL"></div>
                 <div class="hand handR"></div>
             </div>
         </div>
